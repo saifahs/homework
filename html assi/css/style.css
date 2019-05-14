@@ -1,0 +1,306 @@
+body{
+
+	background-image: url("../img/yellow_background.png");
+	background-repeat: repeat-x repeat-y;
+	background-size: cover;
+
+}
+
+.box{
+
+	width: 900px;
+	height: 961px;
+	/*border: 1px solid black;*/
+	margin: auto;
+} 
+
+h1.a{
+
+	font-family: "Ballpark Weiner" , Arial;
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: -49px;
+	left: 65px;
+}
+
+h2.b{
+
+	font-family: "Day Roman" Arial;
+	font-size: 15px;
+	color: black;
+	position: relative;
+	top: -61px;
+
+} 
+
+ul{
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -23px;
+	
+	
+}
+
+li{
+
+	float: right;
+}
+
+li a{
+
+	display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover{
+
+	background-color: black;
+	border-bottom: 2px solid orange;
+	color: white;
+}
+
+img.c{
+
+	width: 900px;
+	height: 3px;
+	position: relative;
+	top: -50px;
+}
+
+img.d{
+
+	width: 900px;
+	border-radius: 4px;
+	position: relative;
+	top: -43px;
+}
+
+.boxx{
+
+	height: 40px;
+	background-color: black;
+	position: relative;
+	top: -87px;
+	opacity: .8;
+}
+
+h3{
+
+	font-size: 13px;
+	color: white;
+	position: relative;
+	top: -127px;
+	
+}
+
+ button{
+
+	float: right;
+	border-radius: 3px;
+	border: 2px solid red;
+	background-color: red;
+	color: white;
+	position: relative;
+	top: -160px;
+}
+
+img.e{
+       
+       position: relative;
+       top: -95px;
+}
+
+h4{
+   
+   font-family: "Day Roman" Arial;
+   font-size: 20px;
+   position: relative;
+   top: -160px;
+   left: 50px;
+}
+
+.mypar{
+
+	width: 615px;
+	height: 299px;
+	position: relative;
+    top: -158px;	
+}
+
+.mypar p{
+
+	font-size: 13px;
+}
+
+
+.boxxx{
+
+	width: 268px;
+	height: 370px;
+	/*border: 1px solid black;*/
+	float: right;
+	position: relative;
+	top: -540px;
+    border-radius: 6px;
+	background-color: grey;
+	
+}
+
+img.t{
+
+    display: block;
+    margin: 0 auto;
+}
+
+ 
+
+.boxxx h1{
+
+	font-size: 15px;
+	text-align: center;
+	margin-right: 86px;
+	color: white;
+}
+
+img.f{
+
+	position: relative;
+	top: 98px;
+	left: -12px;
+}
+
+.boxxx p{
+
+	margin-left: 13px;
+	color: white;
+	font-size: 12px;
+}
+
+.myimg{
+
+	width: 226px;
+	height: 43px;
+	margin-left: 20px;
+}
+
+img.r{
+
+    width: 900px;
+	height: 3px;
+	position: relative;
+	top: -547px;
+}
+
+img.p{
+
+	margin-left: 400px;
+	position: relative;
+	top: -552px;
+}
+
+.footer{
+
+	width: 900px;
+	height: 133px;
+	/*border: 1px solid black;*/
+	position: relative;
+	top: -564px;
+}
+
+.hero{
+
+	width: 200px;
+	height: 97px;
+	/*border: 1px solid black;*/
+}
+
+.hero h1{
+
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.hero h2{
+
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.herobox{
+
+	width: 256px;
+	height: 112px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	left: 240px;
+	top: 0px;
+}
+
+.herobox h1{
+
+	font-weight: normal;
+	font-size: 13px;
+	position: relative;
+	top: -1px;
+}
+
+.herobox img{
+
+	 position: relative;
+	 width: 55px;
+	 top: 4px;
+	 left: 0px;
+	 border: 1px solid black;
+}
+
+.heroboxx{
+
+	height: 112px;
+	width: 243px;
+	/*border: 1px solid black;*/
+    position: absolute;
+	left: 514px;
+	top: 0px;
+}
+
+.heroboxx h1{
+
+	position: absolute;
+	top: -2px;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.heroboxx ul{
+						
+	position: relative;
+	top: -13px;
+	left: -106px;
+	padding: 42px;
+	list-style: none;
+}
+
+.heroboxx li{
+
+	list-style-image: url(../img/external_link.png);
+}
+
+.heroboxx ol{
+
+	position: relative;
+	padding: 42px;
+	top: -113px;
+	left: 2px;
+}
+/*img.abc{
+
+	width: 1px;
+	height: 1px;
+	color: black;
+}*/
