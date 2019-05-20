@@ -1,0 +1,31 @@
+.myImage img{
+	border: 2px dashed black;
+	height: 420px;
+	width: 582px;
+	opacity: .8;
+}
+
+a:link {background-color: #000000}   
+	 a:visited {background-color: #006600} 
+     a:hover {background-color: #FFCC00} 
+     a:active {background-color: #FF00CC} 
+
+ a.myAnchor:hover {
+ 	    background-color: red;
+
+ }
+
+.myImage{
+	background-color: black;
+	margin-top: 15px;
+}
+
+a {
+	border: 2px solid black;
+	text-decoration: none;
+	background-color: #dddfd4;
+	margin: 20px;
+	padding: 5px;
+
+	 
+}
