@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Accordion</h1>
+	<button class="accordion">HTML</button>
+  <div class="panel">
+
+  	<p>HTML stands for Hyper Text Markup Language.The founder of html is Tim Berner's Lee.HTML describes the structure of Web pages using markup.HTML elements are the building blocks of HTML pages.HTML elements are represented by tags.</p>
+
+  </div>
+   
+    <button class="accordion">CSS</button>
+  <div class="panel">
+
+  	<p>CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN.CSS is a language that describes the style of an HTML document.CSS describes how HTML elements should be displayed.</p>
+
+  </div>
+
+    <button class="accordion">JAVASCRIPT</button>
+  <div class="panel">
+
+  	<p>JS stands for Javascript.The founder of javascript is Brendan Eich.JavaScript is the programming language of HTML and the Web.JavaScript is easy to learn.JavaScript Can Change HTML Content.JavaScript
+  	Can Change HTML Attribute Values</p>
+
+  </div>
+
+    <button class="accordion">BOOTSTRAP</button>
+  <div class="panel">
+
+  	<p>BS stands for Bootstrap.The founder of bootstrap is Jacob Thornton.Bootstrap is a free front-end framework for faster and easier web development.Bootstrap includes HTML and CSS based design templates 
+  	for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.</p>
+
+  </div>
+
+    <button class="accordion">PHP</button>
+  <div class="panel">
+
+  	<p>PHP stands for Personal Home Page.The founder of php is Rasmus Lerdorf.PHP is an acronym for "PHP: Hypertext Preprocessor".PHP is a widely-used, open source scripting language.PHP scripts are executed 
+  	on the server.PHP is free to download and use.</p>
+
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+</script>
+
+</body>
+</html>
