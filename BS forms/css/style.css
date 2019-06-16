@@ -1,0 +1,61 @@
+body{
+
+	background-image: url("../img/a.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1{
+
+	color: white;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.label{
+
+	font-size: 19px;
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+.form-control{
+
+	background: rgba(255,255,255,0.2);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 2px solid white;
+	font-size: 21px;
+	color: white;
+	margin-top: 20px;
+}
+
+small{
+
+	font-size: 15px;
+	color: grey;
+}
+
+option{
+
+	color: #666;
+}
+
+.btn-info{
+
+	margin-top: 30px;
+	margin-left: 150px;
+	width: 150px;
+	font-size: 19px;
+	border-radius: 800px;
+
+}
+
+.col-md-6{
+
+	background: rgba(0,0,0,0.4);
+	height: 600px;
+	box-shadow: -1px 1px 60px 10px black inset;
+	margin-top: 40px;
+}
